@@ -19,7 +19,7 @@ jobs:
     - name: Connect to Lab machine and Deploy the code on tomcat9 
       uses: cross-the-world/ssh-scp-ssh-pipelines@latest
       with:
-        host: '65.2.141.72'
+        host: '13.235.50.15'
         user: 'labuser'
         pass: 'Nuvelabs123$'
         port: 22
